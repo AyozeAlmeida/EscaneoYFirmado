@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ED49F2851F018293007DE0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2841F018293007DE0E4 /* AppDelegate.swift */; };
-		ED49F2871F018293007DE0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2861F018293007DE0E4 /* ViewController.swift */; };
+		ED49F2871F018293007DE0E4 /* SeleccionBalizaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2861F018293007DE0E4 /* SeleccionBalizaVC.swift */; };
 		ED49F28A1F018293007DE0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49F2881F018293007DE0E4 /* Main.storyboard */; };
 		ED49F28D1F018293007DE0E4 /* Proyectito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED49F28B1F018293007DE0E4 /* Proyectito.xcdatamodeld */; };
 		ED49F28F1F018293007DE0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49F28E1F018293007DE0E4 /* Assets.xcassets */; };
 		ED49F2921F018293007DE0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49F2901F018293007DE0E4 /* LaunchScreen.storyboard */; };
 		ED49F29D1F018293007DE0E4 /* ProyectitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F29C1F018293007DE0E4 /* ProyectitoTests.swift */; };
 		ED49F2A81F018293007DE0E4 /* ProyectitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2A71F018293007DE0E4 /* ProyectitoUITests.swift */; };
+		ED49F2B61F0183DF007DE0E4 /* Baliza.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2B51F0183DF007DE0E4 /* Baliza.swift */; };
+		ED49F2B81F01847A007DE0E4 /* SeleccionBalizaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */; };
+		ED49F2BA1F0185D0007DE0E4 /* SeleccionBalizaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2B91F0185D0007DE0E4 /* SeleccionBalizaService.swift */; };
+		ED49F2C01F01939C007DE0E4 /* SeleccionBalizaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		ED49F2811F018293007DE0E4 /* Proyectito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyectito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED49F2841F018293007DE0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED49F2861F018293007DE0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED49F2861F018293007DE0E4 /* SeleccionBalizaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionBalizaVC.swift; sourceTree = "<group>"; };
 		ED49F2891F018293007DE0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED49F28C1F018293007DE0E4 /* Proyectito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proyectito.xcdatamodel; sourceTree = "<group>"; };
 		ED49F28E1F018293007DE0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		ED49F2A31F018293007DE0E4 /* ProyectitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED49F2A71F018293007DE0E4 /* ProyectitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectitoUITests.swift; sourceTree = "<group>"; };
 		ED49F2A91F018293007DE0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49F2B51F0183DF007DE0E4 /* Baliza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baliza.swift; sourceTree = "<group>"; };
+		ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionBalizaPresenter.swift; sourceTree = "<group>"; };
+		ED49F2B91F0185D0007DE0E4 /* SeleccionBalizaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeleccionBalizaService.swift; path = ../../../Documents/EstructurarMVP/Prueba/SeleccionBalizaService.swift; sourceTree = "<group>"; };
+		ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionBalizaCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		ED49F2831F018293007DE0E4 /* Proyectito */ = {
 			isa = PBXGroup;
 			children = (
+				ED49F2B91F0185D0007DE0E4 /* SeleccionBalizaService.swift */,
 				ED49F2841F018293007DE0E4 /* AppDelegate.swift */,
-				ED49F2861F018293007DE0E4 /* ViewController.swift */,
+				ED49F2861F018293007DE0E4 /* SeleccionBalizaVC.swift */,
 				ED49F2881F018293007DE0E4 /* Main.storyboard */,
 				ED49F28E1F018293007DE0E4 /* Assets.xcassets */,
 				ED49F2901F018293007DE0E4 /* LaunchScreen.storyboard */,
 				ED49F2931F018293007DE0E4 /* Info.plist */,
 				ED49F28B1F018293007DE0E4 /* Proyectito.xcdatamodeld */,
+				ED49F2B51F0183DF007DE0E4 /* Baliza.swift */,
+				ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */,
+				ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */,
 			);
 			path = Proyectito;
 			sourceTree = "<group>";
@@ -265,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED49F2BA1F0185D0007DE0E4 /* SeleccionBalizaService.swift in Sources */,
+				ED49F2B81F01847A007DE0E4 /* SeleccionBalizaPresenter.swift in Sources */,
+				ED49F2C01F01939C007DE0E4 /* SeleccionBalizaCell.swift in Sources */,
 				ED49F28D1F018293007DE0E4 /* Proyectito.xcdatamodeld in Sources */,
-				ED49F2871F018293007DE0E4 /* ViewController.swift in Sources */,
+				ED49F2871F018293007DE0E4 /* SeleccionBalizaVC.swift in Sources */,
+				ED49F2B61F0183DF007DE0E4 /* Baliza.swift in Sources */,
 				ED49F2851F018293007DE0E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
