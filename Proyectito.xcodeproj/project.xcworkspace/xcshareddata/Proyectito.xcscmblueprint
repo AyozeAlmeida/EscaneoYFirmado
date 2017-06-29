@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "05E18268EA44E6108379B9BCCE7EB3352B739F25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "05E18268EA44E6108379B9BCCE7EB3352B739F25" : 9223372036854775807,
+    "F8634833555F4E46D2436497669A11A4E6F81597" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "65E67EF5-5F19-429C-9E20-DE78AA689454",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "05E18268EA44E6108379B9BCCE7EB3352B739F25" : "BLEconMVP\/",
+    "F8634833555F4E46D2436497669A11A4E6F81597" : "EstructurarMVP\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Proyectito",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Proyectito.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AyozeAlmeida\/BLEconMVP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05E18268EA44E6108379B9BCCE7EB3352B739F25"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AyozeAlmeida\/EstructurarMVP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8634833555F4E46D2436497669A11A4E6F81597"
+    }
+  ]
+}
