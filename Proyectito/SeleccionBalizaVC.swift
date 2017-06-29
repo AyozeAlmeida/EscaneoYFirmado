@@ -15,7 +15,8 @@ class SeleccionBalizaVC: UIViewController {
     @IBOutlet weak var buscador: UISearchBar!
     @IBOutlet weak var collectionBalizas: UICollectionView!
     
-    fileprivate let seleccionBalizaPresenter = SeleccionBalizaPresenter(seleccionBalizaService: SeleccionBalizaService())
+    fileprivate let seleccionBalizaPresenter =
+        SeleccionBalizaPresenter(seleccionBalizaService: SeleccionBalizaService(), escaneo: Escaneo(), firmado: Firmado())
     
     var listaBalizas : [Baliza] = []
     var listaBalizasFiltro : [Baliza] = []
@@ -26,13 +27,16 @@ class SeleccionBalizaVC: UIViewController {
         
         super.viewDidLoad()
         
-        // self.inicializarVista()
+       // self.inicializarVista()
         self.collectionBalizas.dataSource = self
         
         
-        // self.buscador.delegate = self
+       // self.buscador.delegate = self
         self.seleccionBalizaPresenter.attachView(self)
-        self.seleccionBalizaPresenter.obtenerBalizas()
+       // self.seleccionBalizaPresenter.obtenerBalizas()
+        
+        self.seleccionBalizaPresenter.escan()
+        
     }
     
     override func didReceiveMemoryWarning() {

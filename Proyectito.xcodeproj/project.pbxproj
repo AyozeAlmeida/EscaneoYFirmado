@@ -19,6 +19,8 @@
 		ED49F2B81F01847A007DE0E4 /* SeleccionBalizaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */; };
 		ED49F2BA1F0185D0007DE0E4 /* SeleccionBalizaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2B91F0185D0007DE0E4 /* SeleccionBalizaService.swift */; };
 		ED49F2C01F01939C007DE0E4 /* SeleccionBalizaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */; };
+		ED5EB6771F04184200DA2E8C /* Escaneo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EB6761F04184200DA2E8C /* Escaneo.swift */; };
+		ED5EB6791F042C6C00DA2E8C /* Firmado.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EB6781F042C6C00DA2E8C /* Firmado.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionBalizaPresenter.swift; sourceTree = "<group>"; };
 		ED49F2B91F0185D0007DE0E4 /* SeleccionBalizaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeleccionBalizaService.swift; path = ../../../Documents/EstructurarMVP/Prueba/SeleccionBalizaService.swift; sourceTree = "<group>"; };
 		ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionBalizaCell.swift; sourceTree = "<group>"; };
+		ED5EB6761F04184200DA2E8C /* Escaneo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Escaneo.swift; sourceTree = "<group>"; };
+		ED5EB6781F042C6C00DA2E8C /* Firmado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firmado.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				ED49F2B51F0183DF007DE0E4 /* Baliza.swift */,
 				ED49F2B71F01847A007DE0E4 /* SeleccionBalizaPresenter.swift */,
 				ED49F2BF1F01939C007DE0E4 /* SeleccionBalizaCell.swift */,
+				ED5EB6761F04184200DA2E8C /* Escaneo.swift */,
+				ED5EB6781F042C6C00DA2E8C /* Firmado.swift */,
 			);
 			path = Proyectito;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 				ED49F28D1F018293007DE0E4 /* Proyectito.xcdatamodeld in Sources */,
 				ED49F2871F018293007DE0E4 /* SeleccionBalizaVC.swift in Sources */,
 				ED49F2B61F0183DF007DE0E4 /* Baliza.swift in Sources */,
+				ED5EB6771F04184200DA2E8C /* Escaneo.swift in Sources */,
+				ED5EB6791F042C6C00DA2E8C /* Firmado.swift in Sources */,
 				ED49F2851F018293007DE0E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +544,7 @@
 				ED49F2AE1F018293007DE0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED49F2AF1F018293007DE0E4 /* Build configuration list for PBXNativeTarget "ProyectitoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +553,7 @@
 				ED49F2B11F018293007DE0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED49F2B21F018293007DE0E4 /* Build configuration list for PBXNativeTarget "ProyectitoUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +562,7 @@
 				ED49F2B41F018293007DE0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
